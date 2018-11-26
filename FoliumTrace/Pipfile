@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+numpy = "*"
+scipy = "*"
+pandas = "*"
+matplotlib = "*"
+jupyter = "*"
+geojson = "*"
+folium = "*"
+six = "*"
+
+[requires]
+python_version = "3.6"

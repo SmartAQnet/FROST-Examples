@@ -1,0 +1,30 @@
+# install
+
+Install python3 (www.python.org) and make sure that python is in your PATH environment variable.
+
+Then, for Linux run 
+```
+install-linux.sh
+```
+
+For Windows run
+```
+install-windows.bat
+```
+
+Downloading and installing can take several minutes.
+Afterwards, for Linux run
+```
+run-linux.sh
+```
+
+For Windows run
+```
+run-windows.bat
+```
+
+This will start Jupyter. Navigate to the "src" folder and open a specific ipython notebook.
+
+# Draw sensor trace
+
+Open Trace.ipynb and run it. You can change the "datastream_id", "starttime" and "endtime" in order to load different data.
