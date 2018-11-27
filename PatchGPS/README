@@ -27,4 +27,4 @@ This will start Jupyter. Navigate to the "src" folder and open a specific ipytho
 
 # Patch GPS location
 
-Open PatchGPS.ipynb and change "datastream_id", "starttime" and "endtime" to your needs. Then run the whole notebook.
+Open PatchGPS.ipynb and change "datastream_id", "starttime" and "endtime" to your needs. You also have to modify the GPS data loader (i.e. your CSV file loader) and provide a valid GPS data file. Then run the whole notebook.
